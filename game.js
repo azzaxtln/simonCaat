@@ -89,7 +89,7 @@ function checkAwnser(currentLevel) {
 
         $("h1").text("Game Over, Press Any Key to Restart")
 
-        $(".btn").text("Game Over, Press Any Key to Restart")
+        $(".btn").text("Game Over, Click Here to Restart")
 
         startOver();
     }
