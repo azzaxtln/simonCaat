@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #140f07;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    margin-top: 30px;
+    color: #fffa40;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 6em;
+}
+
+.mobile button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: #fffa40;
+    font-family: 'VT323', monospace;
+    background-color: #140f07;
+    border: none;
+    display: none;
+}
+
+.gameOver{
+    background-color: red;
+}
+
+.containerCats1, .containerCats2{
+    display: flex;
+    gap: 50px;
+    margin-top: 90px;
+}
+
+.cats{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+#redCat{
+    background-image: url(imgs/redCat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#greenCat{
+    background-image: url(imgs/greenCat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#yellowCat{
+    background-image: url(imgs/yellowCat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#blueCat{
+    background-image: url(imgs/blueCat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pressed{
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+
+@media screen and (max-width: 701px) {
+
+    h1{
+        display: none;
+    }
+  .containerCats1, .containerCats2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.containerCats1{
+    margin-top: 30px;
+}
+
+.cats{
+    width: 140px;
+    height: 140px;
+    
+}
+
+.mobile button{
+    display: block;
+}
+  }
