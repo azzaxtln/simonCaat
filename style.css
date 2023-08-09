@@ -50,24 +50,28 @@ h1{
     background-image: url(imgs/redCat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+      background-position: center;
 }
 
 #greenCat{
     background-image: url(imgs/greenCat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+      background-position: center;
 }
 
 #yellowCat{
     background-image: url(imgs/yellowCat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+      background-position: center;
 }
 
 #blueCat{
     background-image: url(imgs/blueCat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+      background-position: center;
 }
 
 .pressed{
